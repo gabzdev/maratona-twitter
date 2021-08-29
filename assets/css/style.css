@@ -1,0 +1,123 @@
+body {}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Header */
+.cabecalho {
+    flex-basis: 20%;
+}
+
+.cabecalho__logo {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.cabecalho__logo img {}
+
+.cabecalho__logo figcaption {
+    display: none;
+}
+
+cabecalho__menuNavegacao {}
+
+cabecalho__menuLista {}
+
+.cabecalho__menuItem {
+    margin-bottom: 25px;
+}
+
+.cabecalho__menuItem img {
+    max-width: 27px;
+    vertical-align: middle;
+}
+
+.cabecalho__menuItem a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    vertical-align: text-top;
+    padding-left: 13px;
+}
+
+.cabecalho__menuItem a:hover {
+    color: #1da1f2;
+}
+
+/* Main */
+.conteudoPrincipal {
+    flex-basis: 59%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+}
+
+.conteudoPrincipal__titulo {
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.conteudoPrincipal__formulario {
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+}
+
+.conteudoPrincipal__formulario textarea {
+    width: 80%;
+    height: 100px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    resize: none;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.conteudoPrincipal__formulario button {
+    color: white;
+    background-color: rgb(29, 161, 242, 0.4);
+    height: 45px;
+    width: 120px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 50px;
+    border: 0 none;
+}
+
+
+/* Section */
+.conteudoPrincipal__feed {
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.conteudoPrincipal__listaTweets {
+}
+
+.conteudoPrincipal__tweet {
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.tweet__fotoPerfil {}
+
+.tweet__conteudo {
+}
+
+.tweet__conteudo h2 {}
+
+.tweet__conteudo span {}
+
+.tweet__conteudo p {
+}
