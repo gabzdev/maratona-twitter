@@ -91,6 +91,7 @@
 
 /* Section */
 .conteudoPrincipal__tweet {
+    margin-top: 10px;
     padding: 20px 30px;
     border-bottom: 1px solid #e7ecf0;
     display: flex;
@@ -109,6 +110,7 @@
 .tweet__conteudo span {
     display: inline-block;
     color: #828282;
+    margin-left: 3px;
 }
 
 .tweet__conteudo p {
